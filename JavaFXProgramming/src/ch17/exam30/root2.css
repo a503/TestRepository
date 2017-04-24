@@ -1,0 +1,12 @@
+Label{
+    -fx-padding: 10;
+}
+#lbl1{
+    -fx-background-color: bluee;
+    -fx-text-fill: brown;
+}
+.class1{
+    -fx-background-color: #00ccff;
+    -fx-text-fill: #00f23a;
+}
+

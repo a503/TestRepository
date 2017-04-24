@@ -1,0 +1,12 @@
+Label{
+    -fx-padding: 5;
+}
+#lbl1{
+    -fx-background-color: black;
+    -fx-text-fill: yellow;
+}
+.class1{
+    -fx-background-color: #66ff66;
+    -fx-text-fill: #00ccff;
+}
+

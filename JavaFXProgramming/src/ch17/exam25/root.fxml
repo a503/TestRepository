@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.media.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="270.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch17.exam25.RootController">
+   <children>
+      <StackPane layoutX="14.0" layoutY="10.0" prefHeight="200.0" prefWidth="360.0">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="360.0" pickOnBounds="true">
+               <image>
+                  <Image url="@media/audio.png" />
+               </image>
+            </ImageView>
+            <MediaView fx:id="mediaView" fitHeight="200.0" fitWidth="360.0" preserveRatio="false" />
+         </children>
+      </StackPane>
+      <Button fx:id="btnPlay" disable="true" layoutX="461.0" layoutY="14.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="64.0" text="재생" />
+      <Button fx:id="btnPause" disable="true" layoutX="461.0" layoutY="50.0" mnemonicParsing="false" text="일시정지" />
+      <Button fx:id="btnStop" disable="true" layoutX="461.0" layoutY="87.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="64.0" text="중지" />
+      <Label layoutX="385.0" layoutY="169.0" prefHeight="15.0" prefWidth="55.0" text="Volume" />
+      <Slider fx:id="sliderVolume" layoutX="385.0" layoutY="185.0" showTickMarks="true" />
+      <ProgressBar fx:id="progressBar" layoutX="385.0" layoutY="137.0" prefHeight="18.0" prefWidth="105.0" progress="0.0" />
+      <ProgressIndicator fx:id="progressIndicator" layoutX="495.0" layoutY="134.0" progress="0.0" />
+      <Label layoutX="385.0" layoutY="119.0" text="Time" />
+      <Label fx:id="labelTime" alignment="CENTER" layoutX="385.0" layoutY="155.0" prefHeight="15.0" prefWidth="105.0" text="10/60 sec" />
+      <Slider fx:id="sliderTime" layoutX="14.0" layoutY="230.0" prefHeight="14.0" prefWidth="500.0" showTickLabels="true" showTickMarks="true" />
+   </children>
+</AnchorPane>

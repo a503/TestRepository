@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch17.exam17.RootController">
+   <children>
+      <CheckBox fx:id="cb1" layoutX="14.0" layoutY="53.0" mnemonicParsing="false" text="안경" />
+      <CheckBox fx:id="cb2" layoutX="14.0" layoutY="119.0" mnemonicParsing="false" text="모자" />
+      <ImageView fx:id="checkImageView" fitHeight="82.0" fitWidth="100.0" layoutX="70.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/geek.gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnClose" layoutX="173.0" layoutY="163.0" mnemonicParsing="false">
+          <graphic>
+              <ImageView>
+                 <image>
+                     <Image url="@images/exit.png" />
+                 </image>
+              </ImageView>
+          </graphic>
+      </Button>
+      <Separator layoutX="194.0" layoutY="14.0" orientation="VERTICAL" prefHeight="130.0" />
+      <RadioButton fx:id="rb1" userData="BubbleChart" layoutX="211.0" layoutY="37.0" mnemonicParsing="false" selected="true" text="BubbleChart">
+         <toggleGroup>
+            <ToggleGroup fx:id="rbGroup" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="rb2" userData="BarChart" layoutX="208.0" layoutY="71.0" mnemonicParsing="false" text="BarChart" toggleGroup="$rbGroup" />
+      <RadioButton fx:id="rb3" userData="AreaChart" layoutX="211.0" layoutY="111.0" mnemonicParsing="false" text="AreaChart" toggleGroup="$rbGroup" />
+      <ImageView fx:id="radioImageView" fitHeight="117.0" fitWidth="124.0" layoutX="348.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/BubbleChart.png" />
+         </image></ImageView>
+   </children>
+</AnchorPane>
