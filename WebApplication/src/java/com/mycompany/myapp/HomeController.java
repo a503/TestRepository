@@ -74,6 +74,26 @@ public class HomeController {
 	public String jqueryExam01(){
 		return "jquery/exam01";
 	}
+	@RequestMapping("/jquery/exam02")
+	public String jqueryExam02(){
+		return "jquery/exam02";
+	}
+	@RequestMapping("/jquery/exam03")
+	public String jqueryExam03(){
+		return "jquery/exam03";
+	}
+	@RequestMapping("/jquery/exam04")
+	public String jqueryExam04(){
+		return "jquery/exam04";
+	}
+	@RequestMapping("/jquery/exam04_fragment")
+	public String jqueryExam04HtmlFragment(){
+		return "jquery/exam04_fragment";
+	}
+	@RequestMapping("/jquery/exam04_json")
+	public String jqueryExam04Json(){
+		return "jquery/exam04_json";
+	}
 	@RequestMapping("/bootstrap/exam01")
 	public String bootStrapExam01(){
 		return "bootstrap/exam01";
