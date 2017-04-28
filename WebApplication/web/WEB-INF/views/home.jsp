@@ -60,7 +60,7 @@
 		</div>
 		<div style="margin: 10px;">
 			<h4>JSP Tag</h4>
-			<%for (int i=1 ; i<=3 ; i++){
+			<%for (int i=1 ; i<=5 ; i++){
 				String exam;
 				exam = "0" + i;
 			%>
