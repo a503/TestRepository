@@ -90,5 +90,15 @@
                         <a href="form/exam02" class="btn btn-primary">File Upload</a>
 
 		</div>
+                <div style="margin: 10px;">
+			<h4>File Download</h4>
+                        <a href="file/exam03" class="btn btn-primary">File Download</a>
+                        <img src="file/exam03" width="100px" height="100px"/>
+		</div>
+                <div style="margin: 10px;">
+			<h4>D   I</h4>
+                        <a href="di/exam01" class="btn btn-primary">Join</a>
+                        <a href="di/exam02" class="btn btn-primary">Login</a>
+		</div>
 	</body>
 </html>

@@ -26,6 +26,7 @@ public class Exam08HttpController {
 
 	@RequestMapping(value = "/exam02")
 	public String exam02(HttpServletRequest request, Model model) {
+		// 고전적 방식
 		String method = request.getMethod();
 		String uri = request.getRequestURI();
 		String queryString = request.getQueryString();
@@ -43,7 +44,7 @@ public class Exam08HttpController {
 		} else {
 			userAgent = "사파리 브라우저";
 		}
-
+		
 		model.addAttribute("method", method);
 		model.addAttribute("URI", uri);
 		model.addAttribute("qS", queryString);
@@ -54,6 +55,7 @@ public class Exam08HttpController {
 
 		return "http/exam02";
 	}
+	// spring 방식
 	@RequestMapping("/exam03")
 	public String exam03(
 		  @RequestParam String type,
