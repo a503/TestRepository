@@ -8,7 +8,6 @@
 	<!-- @어노테이션을 이용해서 개발할 수 있도록 설정 -->
 	<mvc:annotation-driven />
 
-
 	<!-- 어떤 패키지부터 @어노테이션을 찾아서 사용할 건지 설정 -->
 	<context:component-scan base-package="com.mycompany.myapp" />
 
@@ -22,5 +21,18 @@
 
 	<bean id="multipartResolver"
 		class="org.springframework.web.multipart.commons.CommonsMultipartResolver" />
+
+	<bean id="exam10Dao2" class="com.mycompany.myapp.dao.Exam10Dao2Impl" />
+	
+	<!-- Setter 주입 -->
+	<!--<bean id="exam10Service4" class="com.mycompany.myapp.service.Exam10Service4Impl"
+		p:exam10Dao-ref="exam10Dao2"/>-->
+	<bean id="exam10Service4" class="com.mycompany.myapp.service.Exam10Service4Impl">
+		<property name="exam10Dao" ref="exam10Dao2"/>
+	</bean>	
+	<!-- 생성자 주입 -->
+	<bean id="exam10Service5" class="com.mycompany.myapp.service.Exam10Service5Impl">
+		<constructor-arg ref="exam10Dao2"/>
+	</bean>
 
 </beans>

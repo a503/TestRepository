@@ -44,8 +44,6 @@ public class ActiveBuzzer {
 		for(int i = 0 ; i < 5 ; i++){
 			test.on();
 			Thread.sleep(1000);
-			test.off();
-			Thread.sleep(1000);
 		}
 	}
 }

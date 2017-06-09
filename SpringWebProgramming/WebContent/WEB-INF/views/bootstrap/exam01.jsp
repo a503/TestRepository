@@ -1,9 +1,3 @@
-<%-- 
-    Document   : exam01
-    Created on : 2017. 4. 26, 오후 12:37:38
-    Author     : ijeongsu
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -14,7 +8,6 @@
     <link href="<%=application.getContextPath() %>/resources/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <script src="<%=application.getContextPath() %>/resources/jquery/jquery-3.2.1.min.js" type="text/javascript"></script>
     <script src="<%=application.getContextPath() %>/resources/bootstrap-3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
-
   </head>
   <body>
     <h3>Button</h3>
