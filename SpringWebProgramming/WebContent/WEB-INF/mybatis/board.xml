@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- XML에서 어떤 태그를 작성할지 모르기 때문에, XML에서 작성할 태그를 정의해둔 파일(DTD, XML Schema)이 존재한다. -->
+<!-- *.dtd <!DOCTYPE>을 이용해 정의, 옛날방식 -->
+<!-- *.xsd schemaLocation으로 xsd파일의 위치를 지정, dtd방식을 보완한 방식, 보통 ROOT 태그에 정의 -->
+
+<!-- Root tag를 mapper로 작성해야한다  -->
+<!DOCTYPE mapper 
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"	
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<!--PUBLIC~~ 공개이름을 인식 하고있는 xml에디터의 경우 실제정의 파일을 몰라도 사용할 수 있다.-->
+	<!-- 실제 dtd파일의 다운로드 경로. -->
+ <!-- namespace : 여러 매퍼파일을 식별할수 있는 식별자 -->
+<mapper namespace="board">
+	<!-- id는 자바코드에서 사용한다(태그를 찾기위한 식별명). parameterType : mybatis를 통해 어떤 객체를 데이터베이스에 넣을것이지 알려준다.(class의 전체이름을 넣어야 한다)-->
+	<insert id="insert" parameterType="com.mycompany.myapp.dto.Exam12Board" >
+		<selectKey keyProperty="bno" resultType="int" order="AFTER" >
+			select board_bno_seq.currval from dual
+		</selectKey>
+		<if test="boriginalfilename != null">
+		insert into board 
+		( bno, btitle, bcontent, bwriter, bdate, bpassword, bhitcount, boriginalfilename, bsavedfilename, bfilecontent ) 
+		values 
+		( board_bno_seq.nextval, #{btitle}, #{bcontent}, #{bwriter}, SYSDATE, #{bpassword}, 0, #{boriginalfilename}, #{bsavedfilename}, #{bfilecontent} )
+		</if>
+		<if test="boriginalfilename == null">
+		insert into board 
+		( bno, btitle, bcontent, bwriter, bdate, bpassword, bhitcount ) 
+		values 
+		( board_bno_seq.nextval, #{btitle}, #{bcontent}, #{bwriter}, SYSDATE, #{bpassword}, 0 )
+		</if>
+	</insert>
+	<!-- 매개값이 없는 단순 select -->
+	<select id="selectAll" resultType="com.mycompany.myapp.dto.Exam12Board" resultMap="selectAllResultMap">
+		select bno as bid, btitle, bwriter as bowner, bdate, bhitcount from board order by bno desc
+	</select>
+	
+	<resultMap type="com.mycompany.myapp.dto.Exam12Board" id="selectAllResultMap">
+		<result column="bid" property="bno"/>
+		<result column="btitle" property="btitle"/>
+		<result column="bowner" property="bwriter"/>
+		<result column="bdate" property="bdate"/>
+		<result column="bhitcount" property="bhitcount"/>
+	</resultMap>
+	
+	<select id="selectByPage" resultType="com.mycompany.myapp.dto.Exam12Board" parameterType="map">
+		select * 
+		from (
+			select rownum as r, bno, btitle, bwriter, bdate, bhitcount 
+			from (
+				select bno, btitle, bwriter, bdate, bhitcount from board order by bno desc
+				)
+			where rownum&lt;=#{endNum}
+			)
+		where r&gt;=#{startNum}
+	</select>
+	<select id="countAll" resultType="int">
+		select count(*) c from board
+	</select>
+	<select id="selectByBno" resultType="com.mycompany.myapp.dto.Exam12Board" parameterType="int">
+		select * from board where bno=#{bno} 
+	</select>
+	<update id="updateBhitcount" parameterType="map">
+		update board set bhitcount=#{bhitcount} where bno=#{bno} 
+	</update>
+	<update id="update" parameterType="com.mycompany.myapp.dto.Exam12Board">
+		<if test="boriginalfilename != null">
+			update board set btitle=#{btitle}, bcontent=#{bcontent}, bpassword=#{bpassword}, bdate=sysdate, boriginalfilename=#{boriginalfilename}, bsavedfilename=#{bsavedfilename}, bfilecontent=#{bfilecontent} where bno=#{bno} 
+		</if>
+		<if test="boriginalfilename == null">
+			update board set btitle=#{btitle}, bcontent=#{bcontent}, bpassword=#{bpassword}, bdate=sysdate where bno=#{bno} 
+		</if>
+	</update>
+	<delete id="delete" parameterType="int">
+		delete from board where bno=#{bno} 
+	</delete>
+</mapper>

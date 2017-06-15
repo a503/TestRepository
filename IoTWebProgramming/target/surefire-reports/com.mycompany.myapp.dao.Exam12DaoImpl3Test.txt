@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.myapp.dao.Exam12DaoImpl3Test
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.464 s <<< FAILURE! - in com.mycompany.myapp.dao.Exam12DaoImpl3Test
+selectByPageTest(com.mycompany.myapp.dao.Exam12DaoImpl3Test)  Time elapsed: 1.776 s  <<< FAILURE!
+java.lang.AssertionError: expected:<204> but was:<1>
+	at com.mycompany.myapp.dao.Exam12DaoImpl3Test.selectByPageTest(Exam12DaoImpl3Test.java:131)
+

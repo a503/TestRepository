@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.myapp.dao.Exam12DaoImpl3Test" time="5.464" tests="5" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.77-b03"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/kang/Desktop/GitRepository/TestRepository/SpringWebProgramming"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="KR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/kang/Desktop/GitRepository/TestRepository/SpringWebProgramming"/>
+    <property name="java.runtime.version" value="1.8.0_77-b03"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/q1/pz3rkjwd16x7xf9y7f6x2h1h0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/kang/Desktop/EclipseWorkspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf5855712542423142932.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/kang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/kang"/>
+    <property name="user.timezone" value="Asia/Seoul"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="kang"/>
+    <property name="java.class.path" value="/Users/kang/eclipse/jee-neon/Eclipse.app/Contents/Eclipse/../../../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ko"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_77"/>
+    <property name="java.ext.dirs" value="/Users/kang/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/kang/Desktop/GitRepository/TestRepository/SpringWebProgramming/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="selectByPageTest" classname="com.mycompany.myapp.dao.Exam12DaoImpl3Test" time="1.776">
+    <failure message="expected:&lt;204&gt; but was:&lt;1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<204> but was:<1>
+	at com.mycompany.myapp.dao.Exam12DaoImpl3Test.selectByPageTest(Exam12DaoImpl3Test.java:131)
+]]></failure>
+    <system-err><![CDATA[6월 14, 2017 5:49:16 오후 org.springframework.test.context.web.WebTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+정보: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+6월 14, 2017 5:49:16 오후 org.springframework.test.context.web.WebTestContextBootstrapper getTestExecutionListeners
+정보: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@77cd7a0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@204f30ec, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e25b2fe, org.springframework.test.context.support.DirtiesContextTestExecutionListener@754ba872, org.springframework.test.context.transaction.TransactionalTestExecutionListener@146ba0ac, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4dfa3a9d]
+6월 14, 2017 5:49:16 오후 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+정보: Loading XML bean definitions from URL [file:WebContent/WEB-INF/spring/applicationContext.xml]
+6월 14, 2017 5:49:16 오후 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+정보: Loading XML bean definitions from URL [file:WebContent/WEB-INF/spring/dispatcher-servlet.xml]
+6월 14, 2017 5:49:17 오후 org.springframework.web.context.support.GenericWebApplicationContext prepareRefresh
+정보: Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6fc6f14e: startup date [Wed Jun 14 17:49:17 KST 2017]; root of context hierarchy
+6월 14, 2017 5:49:17 오후 com.mchange.v2.log.MLog <clinit>
+정보: MLog clients using java 1.4+ standard logging.
+6월 14, 2017 5:49:17 오후 com.mchange.v2.c3p0.C3P0Registry banner
+정보: Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/]}" onto public java.lang.String com.mycompany.myapp.controller.Exam01HomeController.home()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/html/exam01]}" onto public java.lang.String com.mycompany.myapp.controller.Exam02HtmlController.html()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/css/exam02]}" onto public java.lang.String com.mycompany.myapp.controller.Exam03CssController.cssExam02()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/css/exam01]}" onto public java.lang.String com.mycompany.myapp.controller.Exam03CssController.cssExam01()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/css/exam03]}" onto public java.lang.String com.mycompany.myapp.controller.Exam03CssController.cssExam03()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/javascript/exam01]}" onto public java.lang.String com.mycompany.myapp.controller.Exam04JavascriptController.javascriptExam01()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/javascript/exam02]}" onto public java.lang.String com.mycompany.myapp.controller.Exam04JavascriptController.javascriptExam02()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/javascript/exam03]}" onto public java.lang.String com.mycompany.myapp.controller.Exam04JavascriptController.javascriptExam03()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/javascript/exam04]}" onto public java.lang.String com.mycompany.myapp.controller.Exam04JavascriptController.javascriptExam04()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/javascript/exam05]}" onto public java.lang.String com.mycompany.myapp.controller.Exam04JavascriptController.javascriptExam05()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/javascript/exam06]}" onto public java.lang.String com.mycompany.myapp.controller.Exam04JavascriptController.javascriptExam06()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/javascript/exam07]}" onto public java.lang.String com.mycompany.myapp.controller.Exam04JavascriptController.javascriptExam07()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/javascript/exam08]}" onto public java.lang.String com.mycompany.myapp.controller.Exam04JavascriptController.javascriptExam08()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/javascript/exam09]}" onto public java.lang.String com.mycompany.myapp.controller.Exam04JavascriptController.javascriptExam09()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/javascript/exam10]}" onto public java.lang.String com.mycompany.myapp.controller.Exam04JavascriptController.javascriptExam10()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/javascript/exam11]}" onto public java.lang.String com.mycompany.myapp.controller.Exam04JavascriptController.javascriptExam11()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/bootstrap/exam01]}" onto public java.lang.String com.mycompany.myapp.controller.Exam05BootstrapController.bootstrapExam01()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/bootstrap/exam02]}" onto public java.lang.String com.mycompany.myapp.controller.Exam05BootstrapController.bootstrapExam02()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/bootstrap/exam03]}" onto public java.lang.String com.mycompany.myapp.controller.Exam05BootstrapController.bootstrapExam03()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jquery/exam01]}" onto public java.lang.String com.mycompany.myapp.controller.Exam06JqueryController.jqueryExam01()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jquery/exam02]}" onto public java.lang.String com.mycompany.myapp.controller.Exam06JqueryController.jqueryExam02()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jquery/exam03]}" onto public java.lang.String com.mycompany.myapp.controller.Exam06JqueryController.jqueryExam03()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jquery/exam04]}" onto public java.lang.String com.mycompany.myapp.controller.Exam06JqueryController.jqueryExam04()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jquery/exam04_html_fragment]}" onto public java.lang.String com.mycompany.myapp.controller.Exam06JqueryController.jqueryExam04HtmlFragment()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jquery/exam04_json]}" onto public java.lang.String com.mycompany.myapp.controller.Exam06JqueryController.jqueryExam04Json()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jsp/exam01]}" onto public java.lang.String com.mycompany.myapp.controller.Exam07JspController.exam01()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jsp/exam02]}" onto public java.lang.String com.mycompany.myapp.controller.Exam07JspController.exam02()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jsp/exam03]}" onto public java.lang.String com.mycompany.myapp.controller.Exam07JspController.exam03()
+6월 14, 2017 5:49:18 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jsp/exam04]}" onto public java.lang.String com.mycompany.myapp.controller.Exam07JspController.exam04(org.springframework.ui.Model)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jsp/exam05]}" onto public java.lang.String com.mycompany.myapp.controller.Exam07JspController.exam05(org.springframework.ui.Model)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/http/exam02]}" onto public java.lang.String com.mycompany.myapp.controller.Exam08HttpController.exam02(javax.servlet.http.HttpServletRequest)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/http/exam03]}" onto public java.lang.String com.mycompany.myapp.controller.Exam08HttpController.exam03(org.springframework.ui.Model,java.lang.String,int,java.lang.String[],java.lang.String)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/http/exam01],methods=[POST]}" onto public java.lang.String com.mycompany.myapp.controller.Exam08HttpController.exam01Post()
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/http/exam01],methods=[GET]}" onto public java.lang.String com.mycompany.myapp.controller.Exam08HttpController.exam01Get()
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/form/exam01],methods=[POST]}" onto public java.lang.String com.mycompany.myapp.controller.Exam09FormController.join(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String[],java.lang.String)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/form/exam01],methods=[GET]}" onto public java.lang.String com.mycompany.myapp.controller.Exam09FormController.joinForm()
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/form/exam02],methods=[GET]}" onto public java.lang.String com.mycompany.myapp.controller.Exam09FormController.joinForm2()
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/form/exam02],methods=[POST]}" onto public java.lang.String com.mycompany.myapp.controller.Exam09FormController.join2(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String[],java.lang.String,org.springframework.web.multipart.MultipartFile)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/file/exam03]}" onto public void com.mycompany.myapp.controller.Exam09FormController.download(javax.servlet.http.HttpServletResponse,java.lang.String) throws java.io.IOException
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/di/exam01]}" onto public java.lang.String com.mycompany.myapp.controller.Exam10DIController.exam01()
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/di/exam02]}" onto public java.lang.String com.mycompany.myapp.controller.Exam10DIController.exam02()
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/redirect/write]}" onto public java.lang.String com.mycompany.myapp.controller.Exam11RedirectController.write()
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/redirect/list]}" onto public java.lang.String com.mycompany.myapp.controller.Exam11RedirectController.list()
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jdbc/exam01]}" onto public java.lang.String com.mycompany.myapp.controller.Exam12DBController.exam01()
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jdbc/exam04]}" onto public java.lang.String com.mycompany.myapp.controller.Exam12DBController.exam04(org.springframework.ui.Model)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jdbc/exam05]}" onto public java.lang.String com.mycompany.myapp.controller.Exam12DBController.exam05(int,org.springframework.ui.Model)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jdbc/exam02],methods=[GET]}" onto public java.lang.String com.mycompany.myapp.controller.Exam12DBController.exam02Get()
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jdbc/exam02],methods=[POST]}" onto public java.lang.String com.mycompany.myapp.controller.Exam12DBController.exam02Post(com.mycompany.myapp.dto.Exam12Board) throws java.lang.IllegalStateException,java.io.IOException
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jdbc/exam03],methods=[GET]}" onto public java.lang.String com.mycompany.myapp.controller.Exam12DBController.exam03Get()
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jdbc/exam03],methods=[POST]}" onto public java.lang.String com.mycompany.myapp.controller.Exam12DBController.exam03Post(com.mycompany.myapp.dto.Exam12Member) throws java.lang.IllegalStateException,java.io.IOException
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jdbc/exam05Detail]}" onto public java.lang.String com.mycompany.myapp.controller.Exam12DBController.exam05Detail(int,org.springframework.ui.Model)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jdbc/exam05CheckBpassword]}" onto public java.lang.String com.mycompany.myapp.controller.Exam12DBController.exam05CheckBpassword(int,java.lang.String,org.springframework.ui.Model)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jdbc/exam05Update],methods=[GET]}" onto public java.lang.String com.mycompany.myapp.controller.Exam12DBController.exam05UpdateGet(int,org.springframework.ui.Model)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jdbc/exam05Update],methods=[POST]}" onto public java.lang.String com.mycompany.myapp.controller.Exam12DBController.exam05UpdatePost(com.mycompany.myapp.dto.Exam12Board) throws java.lang.Exception
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jdbc/exam05Delete]}" onto public java.lang.String com.mycompany.myapp.controller.Exam12DBController.exam05Delete(int)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jdbc/exam06]}" onto public java.lang.String com.mycompany.myapp.controller.Exam12DBController.exam06(int,org.springframework.ui.Model)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jdbc/exam06Detail]}" onto public java.lang.String com.mycompany.myapp.controller.Exam12DBController.exam06Detail(java.lang.String,org.springframework.ui.Model)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jdbc/exam06CheckMpassword]}" onto public java.lang.String com.mycompany.myapp.controller.Exam12DBController.exam06CheckMpassword(java.lang.String,java.lang.String,org.springframework.ui.Model)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jdbc/exam06Update],methods=[GET]}" onto public java.lang.String com.mycompany.myapp.controller.Exam12DBController.exam06UpdateGet(java.lang.String,org.springframework.ui.Model)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jdbc/exam06Update],methods=[POST]}" onto public java.lang.String com.mycompany.myapp.controller.Exam12DBController.exam06UpdatePost(com.mycompany.myapp.dto.Exam12Member) throws java.lang.Exception
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/jdbc/exam06Delete]}" onto public java.lang.String com.mycompany.myapp.controller.Exam12DBController.exam06Delete(java.lang.String)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/cookie/exam01]}" onto public java.lang.String com.mycompany.myapp.controller.Exam13CookieAndSessionController.exam01(javax.servlet.http.HttpServletResponse) throws java.io.UnsupportedEncodingException
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/cookie/exam02]}" onto public java.lang.String com.mycompany.myapp.controller.Exam13CookieAndSessionController.exam02(java.lang.String,java.lang.String,org.springframework.ui.Model) throws java.io.UnsupportedEncodingException
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/cookie/exam03]}" onto public java.lang.String com.mycompany.myapp.controller.Exam13CookieAndSessionController.exam03(javax.servlet.http.HttpServletResponse)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/session/exam04]}" onto public java.lang.String com.mycompany.myapp.controller.Exam13CookieAndSessionController.exam04(org.springframework.ui.Model)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/session/exam05]}" onto public java.lang.String com.mycompany.myapp.controller.Exam13CookieAndSessionController.exam05(java.lang.String,java.lang.String,com.mycompany.myapp.dto.Exam13Member)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/session/exam06]}" onto public java.lang.String com.mycompany.myapp.controller.Exam13CookieAndSessionController.exam06(org.springframework.web.bind.support.SessionStatus)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/aop/exam01]}" onto public java.lang.String com.mycompany.myapp.controller.Exam14AopController.exam01(javax.servlet.http.HttpSession)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/aop/exam02Write]}" onto public java.lang.String com.mycompany.myapp.controller.Exam14AopController.exam02Write()
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/aop/exam02Update]}" onto public java.lang.String com.mycompany.myapp.controller.Exam14AopController.exam02Update()
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/transaction/exam01],methods=[GET]}" onto public java.lang.String com.mycompany.myapp.controller.Exam15TransactionController.exam01GET()
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+정보: Mapped "{[/transaction/exam01],methods=[POST]}" onto public java.lang.String com.mycompany.myapp.controller.Exam15TransactionController.exam01POST(java.lang.String,java.lang.String,int)
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+정보: Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6fc6f14e: startup date [Wed Jun 14 17:49:17 KST 2017]; root of context hierarchy
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+정보: Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6fc6f14e: startup date [Wed Jun 14 17:49:17 KST 2017]; root of context hierarchy
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver initExceptionHandlerAdviceCache
+정보: Detected @ExceptionHandler methods in noAccountExceptionHandler
+6월 14, 2017 5:49:19 오후 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping registerHandler
+정보: Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+6월 14, 2017 5:49:20 오후 com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource getPoolManager
+정보: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1oj1m3g9o1a0212pxihgwg|452e19ca, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1oj1m3g9o1a0212pxihgwg|452e19ca, idleConnectionTestPeriod -> 0, initialPoolSize -> 1, jdbcUrl -> jdbc:oracle:thin:@192.168.3.151:1521:orcl, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 1, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+]]></system-err>
+  </testcase>
+  <testcase name="updateTest" classname="com.mycompany.myapp.dao.Exam12DaoImpl3Test" time="0.019"/>
+  <testcase name="insertTest" classname="com.mycompany.myapp.dao.Exam12DaoImpl3Test" time="0.013"/>
+  <testcase name="insertWithAttachTest" classname="com.mycompany.myapp.dao.Exam12DaoImpl3Test" time="0.014"/>
+  <testcase name="deleteTest" classname="com.mycompany.myapp.dao.Exam12DaoImpl3Test" time="0.016"/>
+</testsuite>
